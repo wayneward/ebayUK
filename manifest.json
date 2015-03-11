@@ -1,0 +1,15 @@
+{
+    "name": "ebay.infowaynewardcouk",
+    "description": "Ebay UK Version, Web Application",
+    "architecture": "all",
+    "title": "Ebay",
+    "hooks": {
+        "Ebay": {
+            "apparmor": "Ebay.apparmor",
+            "desktop": "Ebay.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Wayne Ward <info@wayneward.co.uk>",
+    "framework": "ubuntu-sdk-14.10-html"
+}

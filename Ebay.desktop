@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Ebay
+Comment=webapp for Ebay
+Type=Application
+Icon=ebay.png
+Exec=webapp-container --enable-back-forward --store-session-cookies \ --webappUrlPatterns=https?://m.ebay.co.uk/* \ http://ebay.co.uk \
+Terminal=false
+X-Ubuntu-Touch=true
